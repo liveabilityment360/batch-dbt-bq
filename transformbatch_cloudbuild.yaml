@@ -6,8 +6,8 @@ steps:
   args:
     - '-c'
     - |-
-       if [ -d "etl_dbt/" ]; then
-        cd etl_dbt
+       if [ -d "etl_dbt_batch/" ]; then
+        cd etl_dbt_batch
         echo "***** DBT RUN ******"
         echo "*** At environment: ****"
         echo "*****************"   
